@@ -1,0 +1,1 @@
+-> npm init => gives me package.json
