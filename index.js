@@ -26,6 +26,7 @@ app.get('/user',(req,res)=>{
 app.post('/data',(req,res)=>{
     const data=req.body;
     console.log(data);
+    // console.log(res);
     res.status(200).json({
         message:'Data received successfully',
     })
